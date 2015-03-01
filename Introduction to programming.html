@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to Programming</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Introduction to Programming</h1>
+	<div class="lesson">
+		<h2>Work session 1: The Basics of the Web and HTML</h2>
+		<!-- WS1: Concept 1 -->	
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>The Web</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					<em>The World Wide Web</em> is a collection of web pages. These web pages are basically just text documents that are written in a language called HTML. The major pieces of the web are the user, working on a web browser on a computer, the Internet and Servers. 
+					The browser makes requests through the Internet to servers. The requests made by the browser use a protocol called <em>http</em>. The servers then respond to the requests with files, written in HTML that the browser displays.
+				</p>
+				<p>
+					By writing a file in the HTML format we are creating a document in a language a computer can understand. That process is generally referred to as <em>coding</em>. The computer is then able to read the document, as long as the syntax is in order, and follow the instructions the programmer wrote.  
+				</p>
+			</div>
+		</div>
+		<!-- WS1: Concept 2 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>What is HTML?</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					HTML stands for <em>HyperText Markup Language</em>. HTML documents inhabit <em>text content</em>, which is "what you see" and <em>markup</em> which describes how the text content looks like. HTML documents can also include references to other documents, such as videos and images, and links to other pages.
+				</p>
+			</div>
+		</div>
+		<!-- WS1: Concept 3 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>"Computers are stupid!"</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					When somebody says that <b>computers are stupid</b> they are referring to the fact that the programmer needs to write his code in exactly the way a computer understands. Hence, the mention of syntax above. Thus, the programmer needs to talk to the computer in a way the computer can understand what he or she is saying.
+				</p>
+				<p>
+					One of the things that relates to the way a programmer needs to think is <b><em>systematic debugging</em></b>. This is important when a computer does not understand a set of instructions given to her. Then the programmer needs to probe the entire file for syntax errors which will confuse the computer and halt the progress of the programmers work. With this being said, it is also important to keep in mind that a programmer will never be able to remember everything all of the time. And that is perfectly fine. We will always be able to look things up if we forget them.
+				</p>
+			</div>
+		</div>
+		<!-- WS1: Concept 4 -->
+		<div class="concept">
+			<div class="concept_title">				
+				<p>
+					<b>The HTML vocabulary: Tags and Elements</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					A tag in a HTML document is always contained within angled brackets. They can have an opening tag and a closing tag. Some tags do not require a closing tag (e.g. the <br> tag). Those tags are referred to as <em>void tags</em>. HTML elements are the stuff HTML documents are made of. The tags we use describe the type of each element. Then there are attributes which can be found within HTML elements.
+				</p>
+			</div>
+		</div>
+		<!-- WS1: Concept 5 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>Inline and Block Elements</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					HTML elements can be either <em>inline</em> or <em>block</em>. When we use Block elements they form an invisible box around the content that is found inside them.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2>Work session 2: Creating a Structured Document with HTML</h2>
+		<!-- WS2: Concept 1 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>The Tree-like Structure of HTML</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					When a web browser interprets a HTML document and displays it as a webpage the browser builds a tree-like structure of the page, or HTML document. Elements make up the tree-like structure. The elements can be defined by HTML tags or contain text or images. HTML classifies page content and tells the browser which part is text, which part is image etc. 
+				</p>
+			</div>
+		</div>
+		<!-- WS2: Concept 2 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>Style</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					Like HTML, CSS is a language programmers can use to communicate with a computer. While HTML controls <em>the structure</em> of a web page, CSS controls <em>the style</em> of the page (how it looks like).
+				</p>
+			</div>
+		</div>
+		<!-- WS2: Concept 3 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>Boxifying a Web Page Design</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					Boxes are everywhere on the webpage. Actually, everything on a webpage is a box. So when you get a web page design from a designer the first thing you need to do is to break the design down and boxify it. You can do this by printing out the design and cutting it up with scissors to identify the boxes on the page, or you can just draw them with a pencil or use a computer program to draw the boxes. 
+				</p>
+				<p>
+					To make things easier you should always start with the big boxes and work your way down to the smaller boxes.
+				</p>
+				<p> 
+					But how do you transfer the boxes you have identified on the design to a HTML document?
+				</p>
+			</div>
+		</div>
+		<!-- WS2: Concept 4 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>Boxes to HTML</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					Boxes are defined by div-tags and each box requires a div-tag of its own. To make things easier on yourself it is recommended that you give each element a <em>class attribute</em> so that you will remember what box is what on the page you are creating. The class attributes serve a similiar purpose in this scenario as labels on boxes when you are moving, e.g. what stuff is from the kitchen, what is from the bedroom etc.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2>Work session 3: Adding CSS Style to HTML Structure</h2>
+		<!-- WS3: Concept 1 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>Cascading Style Sheets (CSS)</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					CSS is code written to control the “style” of HTML elements. When writing CSS code we first write what is called a selector. The selector defines which HTML elements on a page a particular style should apply to.
+				</p>
+			</div>
+		</div>
+		<!-- WS3: Concept 2 -->
+		<div class="concept">
+			<div class="concept_title">
+				<p>
+					<b>Avoiding Repetition</b>
+				</p>
+			</div>
+			<div class="concept_description">
+				<p>
+					HTML elements will sometimes make multiple appearances in the HTML document. By giving each HTML element a class attribute and combining these classes with CSS styling, it is possible to avoid unnecessary repetition when writing the CSS code.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    		<img style="border:0;width:88px;height:31px"
+        	src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        	alt="Valid CSS!">
+    		</a>
+		</p>
+	</div>
+</body>
+
+
+
+
+
