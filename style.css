@@ -1,0 +1,50 @@
+/* This is a CSS comment.*/
+body {
+	font-family: Helvetica;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+p {
+	margin: 10px 0; /*p fyrir <p>*/
+}
+
+em {
+	font-weight: normal;
+}
+
+h1 {
+	text-align: center;
+}
+
+.lesson {
+	background-color: #5C7A99;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+h2 {
+	margin: 10px;
+}
+
+.concept {
+	background-color: #EBF5FF;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept_title {
+	text-align: center;
+	margin: 12px;
+	font-size: 20px;
+}
+
+.concept_description {
+	font-weight: lighter;
+	margin: 10px;
+}
+
